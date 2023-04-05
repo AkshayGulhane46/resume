@@ -16,6 +16,18 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+.container:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(10, 6, 255);
+  pointer-events: stroke;
+}
+
+
 .screenshot {
   width: 50%;
   height: 100%;
@@ -23,13 +35,24 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 
 .screenshot img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
+
+.screenshot img:hover {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
 
 .project-details {
   width: 50%;

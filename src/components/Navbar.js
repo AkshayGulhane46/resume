@@ -16,7 +16,6 @@ function Navbar() {
     <div className='navbar'>
    
         <div className='navbar-container'>
-        <p className='nav-links' >Akshay GUlhane</p>
             <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
               
             </Link>
@@ -24,6 +23,13 @@ function Navbar() {
                 {click ? <FaTimes/> : <FaBars/>}
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+
+            <li className='nav-item'>
+                    <Link to="/" className='nav-links' onClick={closeMobileMenu}>
+                        Akshay Gulhane
+                    </Link>
+                </li>
+
                 <li className='nav-item'>
                     <Link to="/" className='nav-links' onClick={closeMobileMenu}>
                         About

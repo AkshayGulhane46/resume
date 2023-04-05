@@ -42,7 +42,7 @@ function HeroSection({
         </div>
       </div> 
       <div className='image-container'>
-            <img src='Images/person.png' alt='image akshay'></img>
+           
       </div>
       </div>
     </>

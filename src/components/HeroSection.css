@@ -39,8 +39,11 @@
   margin-top: 50px;
   height: 50vh;
   width: 40%; /* modified */
+}
 
-  float: right;
+.image-container img{
+  width: 50%;
+  margin-top: 20px;
 }
 
 /* Media query for screens smaller than 600px wide */
@@ -62,9 +65,15 @@
     font-size: 2rem;
   }
 
-  .image-container {
-    width: 90%;
-    float: none;
+  .image-container{
+    width: 50%;
     margin-top: 20px;
   }
+
+  .image-container img{
+    width: 50%;
+    margin-top: 20px;
+  }
+
+
 }
