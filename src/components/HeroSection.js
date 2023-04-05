@@ -3,6 +3,9 @@ import './HeroSection.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
+import { GoMarkGithub } from "react-icons/go";
+import { DiReact,DiHtml5,DiCss3, DiNodejs ,DiJira ,DiJavascript1 ,DiJava,} from "react-icons/di";
+import {SiSelenium} from 'react-icons/si';
 function HeroSection({
   lightBg,
   topLine,
@@ -17,39 +20,30 @@ function HeroSection({
 }) {
   return (
     <>
-      <div
-        className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}>
-        <div className='container'>
-          <div
-            className='row home__hero-row'
-            style={{
-              display: 'flex',
-              flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'
-            }}
-          >
-            <div className='col'>
-              <div className='home__hero-text-wrapper'>
-                <div className='top-line'>{topLine}</div>
-                <h1 className={lightText ? 'heading' : 'heading dark'}>
-                  {headline}
-                </h1>
-                <p
-                  className={
-                    lightTextDesc
-                      ? 'home__hero-subtitle'
-                      : 'home__hero-subtitle dark'
-                  }>
-                  {description}
-                </p>
-              </div>
-            </div>
-            <div className='col'>
-              <div className='home__hero-img-wrapper'>
-                <img src={img} alt={alt} className='home__hero-img' />
-              </div>
-            </div>
-          </div>
+    <div className='page'>
+      <div className='main'>
+        <div className='name-container'>
+              <h1>Akshay Gulhane</h1>
         </div>
+        <div className='description-container'>
+              <p>Full Stack Developer</p>
+        </div>
+        <div className='skills-container'>
+               <div className='icon'>
+                    <DiReact/>
+                    <DiHtml5/>
+                    <DiCss3/>
+                    <DiNodejs/>
+                    <DiJira/>
+                    <DiJavascript1/>
+                    <DiJava/>
+                    <SiSelenium/>
+               </div>
+        </div>
+      </div> 
+      <div className='image-container'>
+            <img src='Images/person.png' alt='image akshay'></img>
+      </div>
       </div>
     </>
   );

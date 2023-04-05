@@ -1,17 +1,21 @@
 import React from 'react';
-import HeroSection from '../../HeroSection';
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
+import ProjectSection from '../../projectSection';
+import { ProjectOne , ProjectTwo} from './Data';
+import './Projects.css';
 
 
-function Projects() {
+function Project() {
   return (
     <>
-      <HeroSection {...homeObjOne} />
-      <HeroSection {...homeObjThree} />
-      <HeroSection {...homeObjTwo} />
-      <HeroSection {...homeObjFour} />
+    <div className='projects-grid'>
+      <div className='project'><ProjectSection{...ProjectOne}/></div>
+      <div className='project'><ProjectSection{...ProjectOne}/></div>
+      <div className='project'><ProjectSection{...ProjectOne}/></div>
+      <div className='project'><ProjectSection{...ProjectOne}/></div>
+
+    </div>
     </>
   );
 }
 
-export default Projects;
+export default Project;

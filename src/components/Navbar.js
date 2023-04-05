@@ -14,7 +14,9 @@ function Navbar() {
 
     <IconContext.Provider value={{color:'#fff'}}>
     <div className='navbar'>
+   
         <div className='navbar-container'>
+        <p className='nav-links' >Akshay GUlhane</p>
             <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
               
             </Link>
@@ -28,7 +30,7 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to="/About" className='nav-links'  onClick={closeMobileMenu}>
+                    <Link to="/WorkExperience" className='nav-links'  onClick={closeMobileMenu}>
                         Work Experience
                     </Link>
                 </li>
@@ -38,12 +40,12 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to="/Contact Me" className='nav-links'  onClick={closeMobileMenu}>
+                    <Link to="/Education" className='nav-links'  onClick={closeMobileMenu}>
                         Education
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to="/Contact Me" className='nav-links'  onClick={closeMobileMenu}>
+                    <Link to="/Contact" className='nav-links'  onClick={closeMobileMenu}>
                         Get in Touch
                     </Link>
                 </li>
