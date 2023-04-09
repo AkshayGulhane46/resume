@@ -1,7 +1,7 @@
 export const ProjectOne = {
   name: 'SuperHero Hunter',
   description:"SuperHero Hunter",
-  img: 'https://github.com/AkshayGulhane46/resume/blob/master/public/Images/SuperHeroHunter.png',
+  img: 'Images/alarmClock.png',
   GithubLink:'https://github.com/AkshayGulhane46/alarmclock',
   YoutubeLink :'https://www.youtube.com/',
 };

@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { GoMarkGithub } from "react-icons/go";
 import { BsYoutube } from "react-icons/bs";
 
+
 // function handleClick(link) {
 
 //   console.log(link);
@@ -27,7 +28,7 @@ function ProjectSection(
   return (
       <div className='single-projects-grid'>
         <div className='container'>
-            <div className='screenshot'><img src={img} alt='image '/></div>
+            <div className='screenshot'><img src={img} alt='image'/> </div>
             <div className='project-details'>
                   <div className='text'>
                     <p className='project-name'> {name} </p>

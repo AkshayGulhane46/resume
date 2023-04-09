@@ -7,8 +7,10 @@ import WorkExperience from './components/pages/WorkExperiencePage/WorkExperience
 import Education from './components/pages/EducationPage/Education';
 import Contact from './components/pages/ContactPage/Contact';
 
+
 function App() {
   return (
+    
     <Router>
       <Navbar/>
       <Routes >      
@@ -21,6 +23,7 @@ function App() {
       </Routes >
 
     </Router>
+
   );
 }
 

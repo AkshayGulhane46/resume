@@ -14,6 +14,7 @@ function EducationSection({
         <h1>{institute}</h1>
         <p>{passyear}</p>
         <p>{CGPA}</p>
+       
     </>
   );
 }
