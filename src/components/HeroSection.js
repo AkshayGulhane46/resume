@@ -26,7 +26,7 @@ function HeroSection({
               <h1>Akshay Gulhane</h1>
         </div>
         <div className='description-container'>
-              <p>Full Stack Developer</p>
+              <p>Software Engineer</p>
         </div>
         <div className='skills-container'>
                <div className='icon'>
