@@ -17,18 +17,12 @@ function Navbar() {
    
         <div className='navbar-container'>
             <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
-              
+              Akshay Gulhane
             </Link>
             <div className='menu-icon' onClick={handleClick}>
                 {click ? <FaTimes/> : <FaBars/>}
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-
-            <li className='nav-item'>
-                    <Link to="/" className='nav-links' onClick={closeMobileMenu}>
-                        Akshay Gulhane
-                    </Link>
-                </li>
 
                 <li className='nav-item'>
                     <Link to="/" className='nav-links' onClick={closeMobileMenu}>

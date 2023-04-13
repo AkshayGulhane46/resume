@@ -11,7 +11,7 @@
 .main {
   margin-top: 50px;
   height: 50vh;
-  width: 60%; /* modified */
+  width: 100%; /* modified */
 
   text-align: center;
 }
