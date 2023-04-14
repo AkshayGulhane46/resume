@@ -1,7 +1,7 @@
 export const ProjectOne = {
   name: 'SuperHero Hunter',
   description:"SuperHero Hunter",
-  img: "Images/alarmClock.png",
+  img:"Images/IMG_0536.jpg",
   GithubLink:'https://github.com/AkshayGulhane46/alarmclock',
   YoutubeLink :'https://www.youtube.com/',
 };
@@ -9,7 +9,7 @@ export const ProjectOne = {
 export const ProjectTwo = {
   name: 'Tooltip Using React',
   description:"Simple Tooltip is created using React JS",
-  img: 'Images/tooltip.png',
+  img:'Images/tooltip.png',
   GithubLink:'https://github.com/AkshayGulhane46/tooltip/',
   YoutubeLink :'https://www.youtube.com/watch?v=a2a5aG3XRwA',
 };

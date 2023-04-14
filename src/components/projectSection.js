@@ -20,7 +20,6 @@ function ProjectSection(
       <div className='single-projects-grid'>
         <div className='container'>
             <div className='screenshot'><img src={img} alt='Image'/></div>
-
             <div className='project-details'>
                   <div className='text'>
                     <p className='project-name'> {name} </p>
