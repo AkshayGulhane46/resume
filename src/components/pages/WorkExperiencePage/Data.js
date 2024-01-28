@@ -1,24 +1,28 @@
 export const workexpObjOne = {
-    companyname: 'Salasar E-commerce Total Solutions',
-    description :"Lifted Teams productivity by creating and Executing manual test casesLifted Teams productivity by creating and Executing manual test casesLifted Teams productivity by creating and Executing manual test cases Teams productivity by creating and Executing manual test cases for various ongoing projects within organization.Created UI test cases and learnt about API testing using Postman.Exposure to all stages of SDLC, STLC and Defect reporting and tracking. Gain Knowledge about various Automation QA techniques by creating demo automation frameworks in Selenium Java.",
+    companyname: 'Salasar e-commerce solutions. Nagpur',
+    description :`Conducted detailed statistical analyses of quality and requirement traceability matrices, revealing valuable insights into the relationship between development time frames and the identification/resolution of defects. Acquired proficiency in a spectrum of testing techniques, including Smoke, Regression, and Sanity, ensuring thorough test coverage and enhancing product reliability. Demonstrated a solid understanding of agile methodologies and hands-on experience in adeptly managing Jira boards  Engineered strategic test cases for intricate workflows using Excel sheets Cultivated familiarity with industry-leading automation tools such as TestNG and Selenium WebDriver.
+`,
     years: 'Apr-2019, Aug-2019',
     designation :'QA Intern',
   };
   
   export const workexpObjTwo = {
-    designation :'Automation QA Engineer',
+    designation :'Technical Automation QA',
     companyname: 'Perficient Inc.',
-    description :`Worked as a self-driven engineer with the desire to use practical and professional concepts in QA along with the application of QA standards and procedures to resolve routine issues
-    Authored, built, and adopted large scale, cross-functional automation frameworks with well-balanced coverage across back-end integration, database levels, and UI
-    Led and self-contributed to the QA team to build a robust and flexible Automated Testing Framework.
-    Wrote use cases based on product requirements, executed them, and reported issues in a bug tracking system
-    Utilized Selenium web driver and Protractor for UI automation
-    Used SQL for writing and understanding queries and procedures
-    Worked as a core team member for Automation Framework creation and Provided training to Júnior Team Members
-    Practiced API testing using Cypress Tool using Typescript 
-    Well versed in SQL for Data Testing and validations.
-    Won employee of the quarter Four times and got shoutouts from clients for work ethics.
-    Currently working as a Organization level core team member for creation of a testing framework using the Playwright Automation tool for web applications using JavaScript and Nodejs and Azure Dev ops.`,
+    description :`	Guided a team of six members and developed/enhanced the Selenium-based automation framework for an automotive application. 
+	Reduced application testing time by 50% by introducing Jenkins for automating the regular regressions and Smokes on production environment.
+	Collaborated closely with the business teams to streamline production release strategy plans.
+	Provided leadership to off-shore teams via analysing business requirements.
+	Developed a systematic approach to organize and document the requirements of the to-be-system.
+	Employed Rest-Assured for API testing to enhance the efficiency from manual API testing, resulting in improved performance of the team.
+	Collaborated with client-end teams to comprehend requirements and assess the QA efforts needed.
+ 	Led walkthroughs with project stakeholders to set expected milestones for the project team.
+	Managed the team of three QA engineers to develop data driven framework that decreases the testing time by half for e-commerce application, saving time and resources.
+    Initiated automated testing efforts that reduced production defects by 30%.
+	Integrate JMeter to conduct load testing on different processes within an application.
+	Leveraged the tools like Jira, Rally, PractiTest, Azure DevOps for test case management and defect management.
+
+`,
     years:'Sep-2019 - Present',
   };
   
