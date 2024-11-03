@@ -7,21 +7,25 @@ export const workexpObjOne = {
   };
   
   export const workexpObjTwo = {
-    designation :'Technical Automation QA',
+    designation :'Automation QA Engineer',
     companyname: 'Perficient Inc.',
-    description :`	Guided a team of six members and developed/enhanced the Selenium-based automation framework for an automotive application. 
-	Reduced application testing time by 50% by introducing Jenkins for automating the regular regressions and Smokes on production environment.
-	Collaborated closely with the business teams to streamline production release strategy plans.
-	Provided leadership to off-shore teams via analysing business requirements.
-	Developed a systematic approach to organize and document the requirements of the to-be-system.
-	Employed Rest-Assured for API testing to enhance the efficiency from manual API testing, resulting in improved performance of the team.
-	Collaborated with client-end teams to comprehend requirements and assess the QA efforts needed.
- 	Led walkthroughs with project stakeholders to set expected milestones for the project team.
-	Managed the team of three QA engineers to develop data driven framework that decreases the testing time by half for e-commerce application, saving time and resources.
-    Initiated automated testing efforts that reduced production defects by 30%.
-	Integrate JMeter to conduct load testing on different processes within an application.
-	Leveraged the tools like Jira, Rally, PractiTest, Azure DevOps for test case management and defect management.
-
+    description :`Led a team of five in developing and enhancing a Typescript-
+Playwright-based automation framework for a complex automobile
+application, improving test coverage and stability.
+Reduced testing time by 50% by integrating Jenkins for automated
+regression and smoke tests in the production environment, ensuring
+quicker and more reliable releases.
+Collaborated in Agile teams, working closely with developers to integrate
+quality practices.
+Facilitated stakeholder walkthroughs to align on project expectations
+and timelines.Analyzed functional specs for in-depth understanding of
+features.
+Conducted white-box and black-box testing.Created and executed test
+plans for development milestones, managing end-to-end testing for user
+stories.
+Utilized Jira, Rally, PractiTest, and Azure DevOps for test management
+and defect tracking.Skilled in front-end automation tools (Cypress), API
+testing, and SQL-based database validation.
 `,
     years:'Sep-2019 - Present',
   };
