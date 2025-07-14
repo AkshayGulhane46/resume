@@ -1,0 +1,151 @@
+:root {
+  --primary: #3B060A;
+  --secondary: #1c77c3;
+  --background: #f8f9fa;
+  --accent: #ff4d4d;
+  --text: #212529;
+  --shadow: rgba(0, 0, 0, 0.08);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.tech {
+  font-weight: bold;
+  background-color: #e0f7fa;
+  color: #0a1f44;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.tech:hover {
+  font-weight: bold;
+  background-color: #2c2c2c;
+  color: #ffffff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition:cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+p{
+    font-size: 1.5rem;
+    color: var(--text);
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: white;
+  margin: 20px auto;
+  max-width: 1100px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px var(--shadow);
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: var(--accent);
+}
+
+
+h1:hover{
+    color: #1c77c3;
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: var(--secondary);
+}
+
+.job-date {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+.contact-info {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.contact-info li {
+  margin: 15px 0;
+}
+
+.contact-info i {
+  margin-right: 10px;
+  color: var(--primary);
+}
+
+.footer {
+  background-color: #dee2e6;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p, li {
+    font-size: 1rem;
+  }
+
+  ul {
+    padding-left: 15px;
+  }
+}
